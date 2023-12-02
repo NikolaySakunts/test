@@ -1,0 +1,40 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+img {
+    display: block;
+    object-fit: contain;
+    object-position: center;
+}
+
+ul {
+    list-style: none;
+}
+
+body * {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
